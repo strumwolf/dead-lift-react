@@ -1,0 +1,26 @@
+.masthead {
+  display: table;
+  width: 100%;
+  height: 100vmin;
+  padding: 200px 0;
+  background: url("https://s3.amazonaws.com/dead-lift.com/jumbotron.jpg") no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.masthead .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.masthead .intro-body .brand-heading {
+  font-size: 50px;
+}
+@media (min-width: 768px) {
+  .masthead {
+    height: 100vmax;
+    width: 100vmax;
+    padding: 200px 0;
+  }
+  .masthead .intro-body .brand-heading {
+    font-size: 100px;
+  }
+}
